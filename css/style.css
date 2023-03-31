@@ -205,3 +205,84 @@ p {
 .stroke:nth-child(7) {
   animation-delay: 0s;
 }
+
+@media (max-width: 1030px) {
+  .track-art {
+    width: 215px;
+    height: 215px;
+  }
+}
+
+@media (max-width: 910px) {
+  .track-art {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 510px) {
+  .track-art {
+    width: 125px;
+    height: 125px;
+  }
+  .wrapper {
+    padding: 7px;
+  }
+  .now-playing {
+    font-size: 0.89rem;
+  }
+
+  .track-name {
+    font-size: 2rem;
+  }
+
+  .track-artist {
+    font-size: 1.3rem;
+  }
+  .seek_slider {
+    width: 45%;
+  }
+  .repeat-track,
+  .random-track,
+  .playpause-track,
+  .prev-track,
+  .next-track {
+    padding: 17px;
+  }
+}
+
+@media (max-width: 440px) {
+  .track-art {
+    width: 100px;
+    height: 100px;
+  }
+  .wrapper {
+    padding: 5px;
+  }
+  .now-playing {
+    font-size: 0.75rem;
+  }
+
+  .track-name {
+    font-size: 1.8rem;
+  }
+
+  .track-artist {
+    margin-top: 3px;
+    font-size: 1.15rem;
+  }
+  .volume_slider {
+    width: 25%;
+  }
+  .current-time,
+  .total-duration {
+    padding: 7px;
+  }
+  .repeat-track,
+  .random-track,
+  .playpause-track,
+  .prev-track,
+  .next-track {
+    padding: 10px;
+  }
+}
